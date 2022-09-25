@@ -9,15 +9,6 @@
 <script>
 export default {
   name: 'Todos',
-  data() {
-    return {
-      todos: [
-        { id: 1, title: 'Viec 1', completed: false },
-        { id: 2, title: 'Viec 3', completed: false },
-        { id: 3, title: 'Viec 3', completed: false },
-      ],
-    };
-  },
 };
 </script>
 
