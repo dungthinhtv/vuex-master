@@ -1,24 +1,23 @@
 <template>
   <div class="todo-list">
-  <ul>
-  <li v-for="todo in todos" :key="todo.id">{{ todo.title }}</li>
-  <ul>
+    <ul>
+      <li v-for="todo in todos" :key="todo.id">{{ todo.title }}</li>
+    </ul>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Todos',
-  data(){
-    return{
-      todos:[
-        {id:1,title:'Viec 1', completed:false},
-        {id:2,title:'Viec 3', completed:false},
-        {id:3,title:'Viec 3', completed:false}
-        ]
-
-    }
-  }
+  data() {
+    return {
+      todos: [
+        { id: 1, title: 'Viec 1', completed: false },
+        { id: 2, title: 'Viec 3', completed: false },
+        { id: 3, title: 'Viec 3', completed: false },
+      ],
+    };
+  },
 };
 </script>
 
