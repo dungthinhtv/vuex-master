@@ -1,12 +1,4 @@
-<template>
-  <div class="navbar">
-    <h1>My Vuex App Todos</h1>
-    <ul>
-      <li>Home</li>
-      <li>About</li>
-    </ul>
-  </div>
-</template>
+<template></template>
 
 <script>
 export default {
