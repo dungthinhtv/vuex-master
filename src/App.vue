@@ -1,14 +1,12 @@
 <template>
   <div id="app">
     <Navbar />
-
     <Todos />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar';
-
 import Todos from './components/Todos';
 
 export default {
